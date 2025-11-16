@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Allan Yegon – Social Worker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Allan Yegon</h1>
+    <p>Empowering lives through compassionate and futuristic social work</p>
+    <nav>
+      <a href="#profile">Profile</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="articles.html">Articles</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="profile">
+    <h2>Meet Allan</h2>
+    <div class="profile-container">
+      <img src="allan.jpg" alt="Allan Yegon" class="profile-pic" />
+      <p>I am a passionate social worker dedicated to empowering communities and advancing social justice in Kenya.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a professional social worker based in Kenya, committed to advancing social justice, mental wellness, and community empowerment through innovative and research-driven approaches.</p>
+  </section>
+
+  <section id="services">
+    <h2>Professional Services</h2>
+
+    <h3>Counseling and Psychosocial Support</h3>
+    <ul>
+      <li>Individual and group therapy for trauma, addiction, and mental health</li>
+      <li>Family mediation and school-based emotional support</li>
+    </ul>
+
+    <h3>Medical Social Work</h3>
+    <ul>
+      <li>Hospital-based psychosocial assessments and discharge planning</li>
+      <li>Patient referrals to community welfare programs</li>
+    </ul>
+
+    <h3>Community Development</h3>
+    <ul>
+      <li>Youth and women empowerment initiatives</li>
+      <li>Mobilization for health, education, and economic resilience</li>
+    </ul>
+
+    <h3>Advocacy and Human Rights</h3>
+    <ul>
+      <li>Legal and policy support for vulnerable populations</li>
+      <li>Public awareness campaigns and legislative collaboration</li>
+    </ul>
+
+    <h3>Research and Academic Engagement</h3>
+    <ul>
+      <li>Field research on poverty, GBV, HIV/AIDS, and mental health</li>
+      <li>Program evaluation and academic publishing</li>
+    </ul>
+
+    <h3>Policy and Program Development</h3>
+    <ul>
+      <li>Advisory roles in national development strategies</li>
+      <li>Curriculum design and ethical framework development</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="handleSubmit(event)">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Allan Yegon. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
